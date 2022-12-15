@@ -1,0 +1,139 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  margin: 0 auto;
+  font-size: 13px;
+  font-family: "Times New Roman", Times, serif;
+  width: 1000px;
+  border: black solid 1px;
+}
+
+#top {
+  width: 1000px;
+  height: 40px;
+  background-color: #141414;
+}
+#top ul {
+  list-style-type: none;
+}
+#top ul li {
+  float: left;
+}
+#top ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  line-height: 40px;
+  padding: 15px;
+  border-right: solid 1px #ccc;
+}
+#top ul li a:hover {
+  color: chocolate;
+}
+
+#banner {
+  background-color: orange;
+  width: 1000px;
+  height: 200px;
+}
+#banner img {
+  width: 1000px;
+  height: 200px;
+}
+
+#main {
+  margin-top: 20px;
+}
+#main #main-left {
+  width: 700px;
+  min-height: 400px;
+  background-color: white;
+  float: left;
+}
+#main #main-left ul {
+  list-style: none;
+}
+#main #main-left ul li {
+  clear: left;
+  border-bottom: 1px solid orchid;
+  float: left;
+  margin-bottom: 20px;
+}
+#main #main-left ul li img {
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+#main #main-left ul li {
+  clear: left;
+  border-bottom: 1px solid orchid;
+  float: left;
+  margin-bottom: 20px;
+}
+#main #main-left ul li a {
+  text-decoration: none;
+}
+#main #main-left ul li a:hover {
+  color: blue;
+}
+#main #main-right {
+  min-height: 400px;
+  width: 295px;
+  float: left;
+  margin-left: 5px;
+}
+#main #main-right .menu-right img {
+  float: left;
+  padding: 6px;
+}
+#main #main-right .menu-right h3 {
+  text-transform: uppercase;
+  background-color: #194d58;
+  height: 35px;
+  line-height: 35px;
+  text-indent: 10px;
+}
+#main #main-right ul {
+  list-style: none;
+}
+#main #main-right ul li {
+  height: 50px;
+  font-size: 20px;
+  vertical-align: middle;
+  border: solid 1px #ccc;
+}
+#main #main-right ul li a {
+  display: block;
+  text-decoration: none;
+  line-height: 30px;
+  text-indent: 20px;
+  margin: 10px;
+}
+#main #main-right ul li a:hover {
+  color: olivedrab;
+}
+
+#footer {
+  background-color: powderblue;
+  height: 100px;
+  width: 1000px;
+  text-align: center;
+  color: white;
+  clear: left;
+  line-height: 40px;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+.pro {
+  background-color: rgba(96, 130, 139, 0.6784313725);
+}
+
+h2 {
+  margin-top: 0px;
+}/*# sourceMappingURL=style.css.map */

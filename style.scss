@@ -1,0 +1,138 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+$fontfamily: "Times New Roman", Times, serif;
+$fontsize: 13px;
+$backgroundColor: white;
+$color: white;
+body {
+  margin: 0 auto;
+  font-size: $fontsize;
+  font-family: $fontfamily;
+  width: 1000px;
+  border: black solid 1px;
+}
+#top {
+  width: 1000px;
+  height: 40px;
+  background-color: #141414;
+  ul {
+    list-style-type: none;
+    li {
+      float: left;
+      a {
+        text-decoration: none;
+        text-transform: uppercase;
+        line-height: 40px;
+        padding: 15px;
+        border-right: solid 1px #ccc;
+      }
+      & a:hover {
+        color: chocolate;
+      }
+    }
+  }
+}
+#banner {
+  background-color: orange;
+  width: 1000px;
+  height: 200px;
+  img {
+    width: 1000px;
+    height: 200px;
+  }
+}
+#main {
+  margin-top: 20px;
+  #main-left {
+    width: 700px;
+    min-height: 400px;
+    background-color: $backgroundColor;
+    float: left;
+    ul {
+      list-style: none;
+      li {
+        clear: left;
+        border-bottom: 1px solid orchid;
+        float: left;
+        margin-bottom: 20px;
+        img {
+          float: left;
+          margin-right: 10px;
+          margin-bottom: 20px;
+        }
+      }
+      li {
+        clear: left;
+        border-bottom: 1px solid orchid;
+        float: left;
+        margin-bottom: 20px;
+
+        a {
+          text-decoration: none;
+        }
+        & a:hover {
+          color: blue;
+        }
+      }
+    }
+  }
+  #main-right {
+    min-height: 400px;
+    width: 295px;
+
+    float: left;
+    margin-left: 5px;
+    .menu-right img {
+      float: left;
+      padding: 6px;
+    }
+    .menu-right h3 {
+      text-transform: uppercase;
+      background-color: #194d58;
+      height: 35px;
+      line-height: 35px;
+      text-indent: 10px;
+    }
+    ul {
+      list-style: none;
+      li {
+        height: 50px;
+        font-size: 20px;
+        vertical-align: middle;
+        border: solid 1px #ccc;
+        a {
+          display: block;
+          text-decoration: none;
+          line-height: 30px;
+          text-indent: 20px;
+          margin: 10px;
+        }
+        & a:hover {
+          color: olivedrab;
+        }
+      }
+    }
+  }
+}
+#footer {
+  background-color: powderblue;
+  height: 100px;
+  width: 1000px;
+  text-align: center;
+  color: $color;
+  clear: left;
+  line-height: 40px;
+}
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+.pro {
+  background-color: #60828bad;
+}
+h2 {
+  margin-top: 0px;
+}
